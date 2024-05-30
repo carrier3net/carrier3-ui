@@ -3,7 +3,7 @@ import { ChainMap } from './chainsMap'
 export const validChains = {
   local: [ChainMap.ROPSTEN, ChainMap.RINKEBY, ChainMap.BSC_TESTNET],
   dev: [ChainMap.BSC_TESTNET, ChainMap.SEPOLIA],
-  production: [ChainMap.ETH, ChainMap.BSC],
+  production: [ChainMap.BSC_TESTNET, ChainMap.SEPOLIA],
 }
 
 let tokens = [
