@@ -34,7 +34,7 @@ const MuonResponse = async (app, method, params) => {
     let { depositTxId, depositNetwork } = params
     const response = await axios.get(
       `${process.env.NEXT_PUBLIC_MUON_NODE_GATEWAY}` + 
-      `?app=mrc20_bridge&method=claim&params[depositTxId]=${depositTxId}` +
+      `?app=carrier3_bridge&method=claim&params[depositTxId]=${depositTxId}` +
       `&params[depositNetwork]=${depositNetwork}`
     );
 
