@@ -6,7 +6,7 @@ const Image = styled.img`
   border-radius: 10%;
 `
 const MuonNetwork = (props) => {
-  const { logo } = props
+  // const { logo } = props
   return (
     <>
       <Image width="32" height="30" src="/media/common/carrier3.png" alt="Carrier3 Logo" />

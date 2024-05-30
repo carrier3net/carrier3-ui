@@ -11,7 +11,7 @@ import { NameChainMap } from '../../constants/chainsMap'
 import MuonNetwork from '../common/MuonNetwork'
 import { validChains } from '../../constants/settings'
 import { addRPC } from '../../utils/addRPC'
-import { MuonTools } from 'muon-toolbox'
+// import { MuonTools } from 'muon-toolbox'
 const WalletModal = dynamic(() => import('../modal/WalletModal'))
 
 const Image = styled.img``
