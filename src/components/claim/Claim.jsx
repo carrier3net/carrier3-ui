@@ -28,7 +28,7 @@ const Claim = (props) => {
   const handleClaim = async (claim) => {
     setLock(claim)
     try {
-      const muonResponse = await MuonResponse('mrc20_bridge', 'claim', {
+      const muonResponse = await MuonResponse('carrier3_bridge', 'claim', {
         depositAddress: MRC20Bridge[claim.fromChain],
         depositTxId: claim.txId,
         depositNetwork: MUON_CHAINS_MAP[claim.fromChain],
