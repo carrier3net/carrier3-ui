@@ -77,7 +77,7 @@ export const rpcConfig = {
     blockExplorerUrls: ['https://ropsten.etherscan.io/'],
   },
   [ChainMap.SEPOLIA]: {
-    chainId: '11155111',
+    chainId: '0xaa36a7',
     chainName: 'Sepolia Testnet',
     symbol: 'ETH',
     nativeCurrency: {
