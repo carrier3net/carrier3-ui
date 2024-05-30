@@ -18,7 +18,8 @@ const supportedChainIds = [
   250, // Fantom
   4002, // Fantom TEST,
   137, // Matic
-  80001, // Maticc Mumbai
+  80001, // Maticc Mumbai,
+  11155111, // Sepolia
 ]
 const INFURA_KEY = process.env.NEXT_PUBLIC_INFURA_KEY
 // const FORTMATIC_KEY = process.env.NEXT_PUBLIC_FORTMATIC_KEY
@@ -37,6 +38,7 @@ const RPC_URLS = {
   250: 'https://rpcapi.fantom.network',
   137: 'https://rpc-mainnet.maticvigil.com/',
   80001: 'https://matic-mumbai.chainstacklabs.com',
+  11155111: 'https://rpc.ankr.com/eth_sepolia',
 }
 
 const validRPC = flow([
