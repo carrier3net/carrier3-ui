@@ -11,7 +11,8 @@ const EXPLORER_PREFIXES = {
   128: '',
   137: '',
   256: 'testnet.',
-  80001: 'mumbai.'
+  80001: 'mumbai.',
+  11155111: 'sepolia.'
 }
 
 const getEtherscanLink = (chainId, data, type) => {
