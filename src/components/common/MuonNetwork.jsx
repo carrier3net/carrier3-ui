@@ -5,7 +5,7 @@ const Image = styled.img`
   margin: 0 5px;
   border-radius: 10%;
 `
-const MuonNetwork = (props) => {
+const MuonNetwork = () => {
   // const { logo } = props
   return (
     <>
