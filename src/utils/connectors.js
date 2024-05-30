@@ -29,7 +29,7 @@ const RPC_URLS = {
   3: 'https://ropsten.infura.io/v3/' + INFURA_KEY,
   4: 'https://rinkeby.infura.io/v3/' + INFURA_KEY,
   56: 'https://bsc-dataseed1.binance.org',
-  97: 'https://data-seed-prebsc-1-s1.binance.org:8545',
+  97: 'https://bsc-testnet-rpc.publicnode.com',
   100: 'https://rpc.xdaichain.com',
   77: 'https://sokol.poa.network/',
   4002: 'https://rpc.testnet.fantom.network/',
